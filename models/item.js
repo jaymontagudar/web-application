@@ -1,4 +1,4 @@
-const db = require('./db'); // Ensure this imports the database connection correctly
+const db = require('./db'); 
 
 function getAllItems(callback) {
     db.all('SELECT * FROM items', (err, rows) => {
